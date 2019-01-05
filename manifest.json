@@ -1,0 +1,28 @@
+{
+
+	"manifest_version" : 2,
+	"name": "ThunderWebTabs",
+	"version": "0.1",
+
+	"browser_specific_settings": {
+		"gecko": {
+			"strict_min_version": "64.0",
+			"id": "thunderwebtabs@gmail.com"
+		}
+	},
+	
+	"description": "Opens Google Keep, Google Photos or Android Messages tabs in Thunderbird.",
+	
+	"icons": {
+		"48": "icons/ThunderWebTabs_logo_48.png",
+		"96": "icons/ThunderWebTabs_logo_96.png"
+	},
+	
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": "icons/ThunderWebTabs_logo_48.png",
+		"default_popup": "popup/ThunderWebTabs.html",
+		"default_title": "TWT"
+	}
+	
+}
