@@ -1,6 +1,6 @@
 html, body {
 	width: 300px;
-	height: 200px;
+	height: 320px;
 	overflow: hidden;
 }
 
@@ -26,4 +26,21 @@ img {
 	height: 19px;
 	vertical-align: text-bottom;
 	margin-right: 5px;
+}
+
+form {
+  padding-top: 9px;
+  margin-bottom: 20px;
+}
+
+label, input, button {
+  width: 205px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+label {
+  text-align: center;
+  vertical-align: center;
 }

@@ -1,3 +1,5 @@
+// Function that detects the click on item if the list and opens website that user clicked on.
+
 document.addEventListener("click", function(e) {
 	if (!e.target.classList.contains("webpageList")) {
 		return;
@@ -18,7 +20,18 @@ document.addEventListener("click", function(e) {
 	}
 	
 	browser.tabs.create({
-    url: pageUrl
-  });
+          url: pageUrl
+        });
 	
 });
+
+// Function to open tab from user's input.
+// It will not save the address to the list, but tab should be persistent.
+
+document.getElementById("open_tab").onclick = function() {
+  var siteURL = document.getElementById("site_url").value;
+  browser.tabs.create({
+    url: siteURL
+  });
+
+};

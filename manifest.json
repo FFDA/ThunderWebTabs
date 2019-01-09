@@ -2,7 +2,7 @@
 
 	"manifest_version" : 2,
 	"name": "ThunderWebTabs",
-	"version": "0.1",
+	"version": "0.2",
 
 	"browser_specific_settings": {
 		"gecko": {
@@ -11,7 +11,7 @@
 		}
 	},
 	
-	"description": "Opens Google Keep, Google Photos or Android Messages tabs in Thunderbird.",
+	"description": "Opens Google Keep, Google Photos, Android Messages or website from user's input in Thunderbird's tab.",
 	
 	"icons": {
 		"48": "icons/ThunderWebTabs_logo_48.png",
