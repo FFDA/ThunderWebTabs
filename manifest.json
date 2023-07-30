@@ -1,8 +1,8 @@
 {
 
-	"manifest_version" : 2,
+	"manifest_version" : 3,
 	"name": "ThunderWebTabs",
-	"version": "0.2",
+	"version": "0.3",
 
 	"browser_specific_settings": {
 		"gecko": {
