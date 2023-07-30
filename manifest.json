@@ -1,6 +1,6 @@
 {
 
-	"manifest_version" : 3,
+	"manifest_version" : 2,
 	"name": "ThunderWebTabs",
 	"version": "0.3",
 
@@ -11,7 +11,7 @@
 		}
 	},
 	
-	"description": "Opens Google Keep, Google Photos, Android Messages or website from user's input in Thunderbird's tab.",
+	"description": "Opens Google Keep, Google Photos, Android Messages or any other website in Thunderbird's tab.",
 	
 	"icons": {
 		"48": "icons/ThunderWebTabs_logo_48.png",
