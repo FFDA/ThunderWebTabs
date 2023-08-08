@@ -1,8 +1,8 @@
 {
-
 	"manifest_version" : 2,
 	"name": "ThunderWebTabs",
-	"version": "0.3",
+	"version": "0.4.0",
+	"author": "FFDA",
 
 	"browser_specific_settings": {
 		"gecko": {
@@ -23,6 +23,19 @@
 		"default_icon": "icons/ThunderWebTabs_logo_48.png",
 		"default_popup": "popup/ThunderWebTabs.html",
 		"default_title": "TWT"
-	}
-	
+	},
+
+	"options_ui": {
+		"page": "options/options.html",
+		"open_in_tab": false,
+		"browser_style": true
+	},
+
+	"background": {
+		"page": "background/background.html"
+	},
+
+	"permissions": [
+		"storage"
+	  ]
 }

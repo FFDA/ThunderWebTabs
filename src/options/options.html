@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="options_stylesheet.css">
+        <title>ThunderWebTabs Settings</title>
+    </head>
+    <body>
+        <h1>Websites</h1>
+        <section id="websites">
+            <div id="header-row">
+                <img src="../icons/empty.svg" class="hidden website-row-image">
+                <input value="Icon" class="header-item" disabled>
+                <input value="Name" class="header-item" disabled>
+                <input value="Address" class="header-item" disabled>
+                <img src="../icons/empty.svg" class="hidden website-row-image">
+            </div>
+        </section>
+        <div id="button-row">
+            <input type="button" value="Restore default" id="button-default" title="Restore default websites">
+            <input type="button" value="Save" id="button-save">
+            <input type="button" value="Add" id="button-add">
+        </div>
+        <div id="comment">
+            <p class="comment-item">Name and address fields are required, otherwise website won’t be saved.</p>
+            <p class="comment-item">Icon field is optional. Url to the favicon or Base64 string encoding of it can be used. Paste only encoded Base64 string, “data:image/png;base64,” will be prefixed automatically.</p>
+        </div>
+        <script src="options.js" type="module"></script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    padding: 20px 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.website-list-item {
+    width: 200px;
+    background: #dcdcdc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.website-list-item:hover {
+    background: #d5d5d5;
+    cursor: pointer;
+}
+
+img {
+    height: 19px;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+
+form {
+    padding-top: 9px;
+    margin-bottom: 20px;
+}
+
+label, input {
+    width: 205px;
+    display: block;
+	margin: 0 auto 10px;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+}
+
+label {
+    text-align: center;
+    vertical-align: center;
+}
