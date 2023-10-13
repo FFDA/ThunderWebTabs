@@ -32,3 +32,12 @@ Download *.xpi file and install it from menu in Thunderbird's addon page
 2. Compress contents of src catalog to zip
 3. Change zip extention to *.xpi
 4. Install the archive
+
+## Browser not supported error
+Some websites might not recognize Thunderbird as a valid web client. If anyone encounters this type of error displayed on a website, it is possible that the website will still function correctly.
+
+To attempt to bypass this error message, manually download any [user-agent switcher addon for Firefox](https://addons.mozilla.org/en-US/firefox/search/?q=agent%20switcher) (try ones with good ratings and a large number of users), and install it in Thunderbird by simply dragging and dropping it in the Add-ons tab or by clicking on the gear icon in the same tab and selecting 'Install Add-on From File.'
+
+To download an add-on from the Firefox add-on page, simply right-click on the 'Add to Firefox' button and choose 'Save Link As...'.
+
+After installing the add-on, try to change the User-Agent to a different web browser and load the page that previously displayed the error message again.
